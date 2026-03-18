@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 1671311024}
   - component: {fileID: 1671311023}
   - component: {fileID: 1671311022}
-  - component: {fileID: 1671311021}
+  - component: {fileID: 1671311026}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -452,18 +452,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1671311021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671311020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63284be1376f6984294e4bee04159847, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::myScript
 --- !u!65 &1671311022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -557,6 +545,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1671311026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671311020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e12440a81ac24e2488a4ff524901d037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::controlflow
+  num1: 8
+  num2: 9
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
